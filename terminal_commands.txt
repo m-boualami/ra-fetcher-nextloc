@@ -1,0 +1,11 @@
+** Call fetcher artists **
+
+python artist_fetcher.py 34 2023-01-01 2023-12-31 -o berlin
+
+** Call fetcher events **
+
+python event_fetcher_2.py --artists-file berlin_artists.csv -o from_berlin
+
+** Call fetcher info area **
+
+python area_info_fetcher.py --areas-file from_berlin_venues.csv -o areas_info

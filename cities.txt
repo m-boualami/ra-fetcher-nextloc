@@ -1,0 +1,779 @@
+United Kingdom - 344
+London - 13
+Midlands - 14
+Birmingham - 516
+Nottingham - 544
+North - 344
+Liverpool - 343
+Manchester - 344
+Newcastle - 345
+Leeds - 346
+Sheffield - 520
+Northern Ireland - 35
+Belfast - 534
+Scotland - 341
+Glasgow - 340
+Edinburgh - 341
+Aberdeen - 342
+Dundee - 539
+South + East - 156
+Brighton - 535
+West + Wales - 446
+Bristol - 446
+Cardiff - 518
+United States of America - 218
+Alabama - 108
+Alaska - 109
+Arizona - 102
+Arkansas - 110
+California - 310
+Los Angeles - 23
+San Francisco/Oakland - 218
+San Diego - 309
+Sacramento - 310
+San Jose - 552
+Colorado - 82
+Denver - 519
+Connecticut - 111
+Delaware - 112
+Florida - 314
+Miami - 38
+Jacksonville - 314
+Orlando - 315
+Tampa Bay - 316
+Georgia - 188
+Atlanta - 532
+Hawaii - 133
+Idaho - 113
+Illinois - 17
+Chicago - 17
+Indiana - 85
+Iowa - 114
+Kansas - 90
+Kentucky - 115
+Louisiana - 65
+Maine - 116
+Maryland - 117
+Baltimore - 526
+Massachusetts - 530
+Boston - 530
+Michigan - 360
+Detroit - 19
+Minnesota - 81
+Mississippi - 103
+Missouri - 118
+Montana - 119
+Nebraska - 120
+Nevada - 527
+Las Vegas - 527
+New Hampshire - 121
+New Jersey - 48
+New Mexico - 122
+New York - 8
+Buffalo/Rochester - 443
+North Carolina - 123
+North Dakota - 124
+Ohio - 529
+Cleveland - 529
+Columbus - 564
+Oklahoma - 104
+Oregon - 125
+Portland - 125
+Pennsylvania - 528
+Philadelphia - 528
+Pittsburgh - 531
+Rhode Island - 127
+South Carolina - 105
+South Dakota - 128
+Tennessee - 72
+Texas - 63
+Houston - 63
+Dallas/Fort Worth - 319
+San Antonio - 320
+Austin - 321
+El Paso - 322
+Utah - 106
+Vermont - 129
+Virginia - 130
+Richmond - 553
+Washington DC - 22
+Washington State - 411
+Seattle - 46
+West Virginia - 131
+Wisconsin - 107
+Wyoming - 132
+Germany - 34
+Baden-Württemberg - 219
+Stuttgart - 152
+Mannheim - 153
+Heidelberg - 219
+Karlsruhe - 220
+Freiburg - 228
+Bavaria - 224
+Munich - 151
+Nürnberg - 154
+Augsburg - 209
+Regensburg - 224
+Berlin - 34
+Brandenburg - 208
+Bremen - 225
+Hamburg - 148
+Hesse - 229
+Frankfurt - 147
+Darmstadt - 229
+Kassel - 233
+Lower Saxony - 358
+Hannover - 146
+Mecklenburg-Vorpommern - 226
+North Rhine-Westphalia - 353
+Cologne - 143
+Dortmund / Essen - 144
+Düsseldorf - 145
+Bielefeld - 274
+Münster - 275
+Bochum - 298
+Rhineland-Palatinate - 266
+Saarland - 333
+Saxony - 227
+Leipzig - 149
+Dresden - 150
+Chemnitz - 265
+Saxony-Anhalt - 227
+Schleswig-Holstein - 273
+Thuringia - 355
+Jena - 210
+Erfurt - 235
+Netherlands - 174
+Amsterdam - 29
+Eindhoven - 177
+Other regions - 162
+Rotterdam - 174
+The Hague - 178
+Utrecht - 175
+Spain - 160
+Barcelona - 20
+Canary Islands - 367
+East - 156
+Ibiza - 25
+Madrid - 41
+North - 344
+South - 1
+France - 156
+Central - 468
+East - 156
+French Riviera - 157
+North - 344
+Paris - 44
+South East - 156
+Lyon - 337
+Marseille - 338
+Montpellier - 339
+South West - 286
+French West Indies - 448
+West - 286
+Nantes - 536
+Italy - 347
+Central - 468
+Rome - 351
+Florence - 352
+North - 344
+Milan - 347
+Turin - 348
+Venice - 349
+Bologna - 350
+Sicily - 302
+South - 1
+Naples - 406
+Canada - 250
+Atlantic Provinces - 230
+Calgary - 137
+Edmonton - 54
+Montreal - 40
+Ottawa - 74
+Prairies - 211
+Quebec - 250
+Toronto - 28
+Vancouver - 39
+Windsor - 161
+Afghanistan - 466
+Albania - 223
+Algeria - 307
+Andorra - 567
+All - 405
+Andorra la Vella - 567
+Angola - 312
+Antigua and Barbuda - 417
+Argentina - 45
+All - 405
+Buenos Aires - 395
+Armenia - 264
+Australia - 434
+Australian Capital Territory - 4
+Canberra - 4
+New South Wales - 1
+Sydney - 1
+Northern Territory - 440
+Darwin - 441
+Queensland - 435
+Brisbane - 12
+South Australia - 436
+Adelaide - 5
+Tasmania - 438
+Hobart - 6
+Victoria - 434
+Melbourne - 2
+Western Australia - 3
+Perth - 3
+Austria - 159
+All - 405
+Vienna - 450
+Azerbaijan - 270
+Bahamas - 296
+Bahrain - 195
+Bangladesh - 269
+Barbados - 186
+Belarus - 189
+Belgium - 62
+All - 405
+Antwerp - 404
+Brussels - 405
+Ghent - 545
+Belize - 331
+Benin - 418
+Bermuda - 330
+Bhutan - 419
+Bolivia - 200
+Bosnia and Herzegovina - 187
+Botswana - 420
+Brazil - 400
+All - 405
+Sao Paulo - 400
+Rio de Janeiro - 401
+British Virgin Islands - None
+Brunei - 512
+Bulgaria - 558
+All - 405
+Sofia - 558
+Burkina Faso - 421
+Burundi - 513
+Cambodia - 272
+Cameroon - 422
+Canada - 250
+Atlantic Provinces - 230
+Calgary - 137
+Edmonton - 54
+Montreal - 40
+Ottawa - 74
+Prairies - 211
+Quebec - 250
+Toronto - 28
+Vancouver - 39
+Windsor - 161
+Cape Verde - 467
+Cayman Islands - 207
+Central African Republic - 468
+Chad - 469
+Chile - 385
+All - 405
+Santiago - 385
+China - 283
+Beijing - 191
+Changsha - 311
+Chengdu - 283
+Chongqing - 332
+Guangzhou - 190
+Hangzhou - 234
+Hong Kong - 71
+Jinan - 445
+Kunming - 371
+Macau - 244
+Nanjing - 281
+Qingdao - 447
+Quanzhou - 285
+Shanghai - 68
+Shenyang - 282
+Shenzhen - 361
+Suzhou - 217
+Tianjin - 279
+Wuhan - 280
+Xi'an - 444
+Xiamen - 284
+Colombia - 373
+All - 405
+Bogotá - 373
+Medellin - 374
+Cali - 218
+Pereira - 538
+Comoros - 470
+Costa Rica - 26
+Croatia - 559
+All - 405
+Zagreb - 559
+Cuba - 238
+Curacao - 334
+Cyprus - 197
+Czech Republic - 97
+All - 405
+Prague - 451
+Democratic Republic of the Congo - 424
+Denmark - 403
+All - 405
+Copenhagen - 402
+Aarhus - 403
+Odense - 515
+Djibouti - 514
+Dominica - 472
+Dominican Republic - 179
+East Timor - 473
+Ecuador - 185
+Egypt - 96
+El Salvador - 135
+Equatorial Guinea - 474
+Eritrea - 475
+Estonia - 566
+All - 405
+Tallinn - 566
+Eswatini - 476
+Ethiopia - 458
+Federated States of Micronesia - 494
+Fiji - 456
+Finland - 407
+All - 405
+Helsinki - 407
+France - 156
+Central - 468
+East - 156
+French Riviera - 157
+North - 344
+Paris - 44
+South East - 156
+Lyon - 337
+Marseille - 338
+Montpellier - 339
+South West - 286
+French West Indies - 448
+West - 286
+Nantes - 536
+Gabon - 477
+Gambia - 425
+Georgia - 188
+All - 405
+Tbilisi - 188
+Batumi - 377
+Germany - 34
+Baden-Württemberg - 219
+Stuttgart - 152
+Mannheim - 153
+Heidelberg - 219
+Karlsruhe - 220
+Freiburg - 228
+Bavaria - 224
+Munich - 151
+Nürnberg - 154
+Augsburg - 209
+Regensburg - 224
+Berlin - 34
+Brandenburg - 208
+Bremen - 225
+Hamburg - 148
+Hesse - 229
+Frankfurt - 147
+Darmstadt - 229
+Kassel - 233
+Lower Saxony - 358
+Hannover - 146
+Mecklenburg-Vorpommern - 226
+North Rhine-Westphalia - 353
+Cologne - 143
+Dortmund / Essen - 144
+Düsseldorf - 145
+Bielefeld - 274
+Münster - 275
+Bochum - 298
+Rhineland-Palatinate - 266
+Saarland - 333
+Saxony - 227
+Leipzig - 149
+Dresden - 150
+Chemnitz - 265
+Saxony-Anhalt - 227
+Schleswig-Holstein - 273
+Thuringia - 355
+Jena - 210
+Erfurt - 235
+Ghana - 426
+Gibraltar - 243
+Greece - 37
+All - 405
+Athens - 549
+Grenada - 478
+Guam - 290
+Guatemala - 202
+Guinea - 500
+Guinea-Bissau - 480
+Guyana - 481
+Haiti - 482
+Honduras - 167
+Hungary - 449
+All - 405
+Budapest - 449
+Iceland - 201
+India - 162
+Bangalore - 325
+Chennai - 327
+Delhi - 324
+Goa - 323
+Hyderabad - 326
+Kolkata - 372
+Mumbai - 328
+Other regions - 162
+Pune - 329
+Indonesia - 569
+All - 405
+Bali - 543
+Jakarta - 569
+Iran - 206
+Iraq - 483
+Ireland - 534
+All - 405
+Dublin - 386
+Cork - 387
+Limerick - 388
+Galway - 389
+Israel - 413
+All - 405
+Tel Aviv - 413
+Italy - 347
+Central - 468
+Rome - 351
+Florence - 352
+North - 344
+Milan - 347
+Turin - 348
+Venice - 349
+Bologna - 350
+Sicily - 302
+South - 1
+Naples - 406
+Ivory Coast - 423
+Jamaica - 221
+Japan - 252
+Chubu - 140
+Chugoku - 141
+Hokkaido - 138
+Kansai - 66
+Kanto - 252
+Kyushu - 139
+Okinawa - 242
+Shikoku - 294
+Tohoku - 254
+Tokyo - 27
+Jordan - 192
+Kazakhstan - 297
+Kenya - 214
+Kiribati - 484
+Kosovo - 362
+Kuwait - 236
+Kyrgyzstan - 485
+Laos - 427
+Latvia - 93
+All - 405
+Riga - 560
+Lebanon - 101
+All - 405
+Beirut - 547
+Lesotho - 487
+Liberia - 488
+Libya - 489
+Liechtenstein - 490
+Lithuania - 561
+All - 405
+Vilnius - 561
+Luxembourg - 199
+Macedonia - 498
+Madagascar - 428
+Malawi - 204
+Malaysia - 36
+Kuala Lumpur - 36
+Maldives - 429
+Mali - 491
+Malta - 164
+Marshall Islands - 492
+Mauritania - 493
+Mauritius - 304
+Mexico - 521
+All - 405
+Monterrey - 70
+Mexico City - 399
+Guadalajara - 522
+Tulum - 523
+Tijuana - 524
+Puerto Escondido - 525
+Puerto Vallarta - 550
+Puebla - 551
+Moldova - 198
+Monaco - 158
+Mongolia - 212
+Montenegro - 193
+Morocco - 173
+Mozambique - 305
+Myanmar - 335
+Namibia - 495
+Nauru - 496
+Nepal - 287
+Netherlands - 174
+Amsterdam - 29
+Eindhoven - 177
+Other regions - 162
+Rotterdam - 174
+The Hague - 178
+Utrecht - 175
+New Zealand - 540
+All - 405
+Auckland - 540
+Wellington - 541
+Christchurch - 542
+Nicaragua - 249
+Niger - 497
+Nigeria - 303
+All - 405
+Lagos - 557
+North Macedonia - 498
+Norway - 408
+All - 405
+Oslo - 408
+Bergen - 409
+Oman - 215
+Pakistan - 166
+Palau - 499
+Palestine - 368
+Panama - 92
+Papua New Guinea - 500
+Paraguay - 180
+Peru - 86
+Philippines - 565
+All - 405
+Manila - 565
+Poland - 69
+All - 405
+Warsaw - 454
+Krakow - 455
+Portugal - 53
+Algarve - 365
+Lisbon - 53
+Other regions - 162
+Porto - 364
+Puerto Rico - 181
+Qatar - 203
+Republic of the Congo - 471
+Romania - 381
+All - 405
+Bucharest - 381
+Cluj-Napoca - 382
+Iasi - 383
+Timisoara - 546
+Russia - 231
+Krasnodar - 237
+Moscow - 88
+Rest of Russia - 232
+Saint Petersburg - 231
+Rwanda - 369
+Saint Kitts and Nevis - 432
+Saint Lucia - 431
+Saint Martin - 363
+Samoa - 416
+San Marino - 501
+Sao Tome and Principe - 502
+Saudi Arabia - 299
+Senegal - 370
+Serbia - 562
+All - 405
+Belgrade - 562
+Seychelles - 222
+Sierra Leone - 503
+Singapore - 51
+Slovakia - 98
+All - 405
+Bratislava - 568
+Slovenia - 563
+All - 405
+Ljubljana - 563
+Solomon Islands - 504
+Somalia - 457
+South Africa - 100
+Cape Town - 100
+Durban - 259
+Johannesburg - 258
+Other regions - 162
+Pretoria - 548
+South Korea - 537
+All - 405
+Seoul - 537
+South Sudan - 415
+Spain - 160
+Barcelona - 20
+Canary Islands - 367
+East - 156
+Ibiza - 25
+Madrid - 41
+North - 344
+South - 1
+Sri Lanka - 289
+Streamland - 463
+Sudan - 414
+Suriname - 505
+Sweden - 396
+All - 405
+Stockholm - 396
+Gothenburg - 397
+Malmo - 398
+Switzerland - 390
+All - 405
+Zurich - 390
+Basel - 391
+Geneva - 392
+Lausanne - 393
+Bern - 394
+Syria - 506
+Taiwan - 412
+All - 405
+Taipei - 412
+Tajikistan - 452
+Tanzania - 271
+Thailand - 67
+All - 405
+Bangkok - 453
+Togo - 507
+Tonga - 508
+Trinidad and Tobago - 442
+Tunisia - 196
+Turkey - 378
+All - 405
+Istanbul - 73
+Ankara - 379
+Izmir - 380
+Turkmenistan - 509
+Tuvalu - 510
+Uganda - 306
+Ukraine - 165
+All - 405
+Kyiv - 517
+United Arab Emirates - 136
+Abu Dhabi - 213
+Dubai - 136
+United Kingdom - 344
+London - 13
+Midlands - 14
+Birmingham - 516
+Nottingham - 544
+North - 344
+Liverpool - 343
+Manchester - 344
+Newcastle - 345
+Leeds - 346
+Sheffield - 520
+Northern Ireland - 35
+Belfast - 534
+Scotland - 341
+Glasgow - 340
+Edinburgh - 341
+Aberdeen - 342
+Dundee - 539
+South + East - 156
+Brighton - 535
+West + Wales - 446
+Bristol - 446
+Cardiff - 518
+United States of America - 218
+Alabama - 108
+Alaska - 109
+Arizona - 102
+Arkansas - 110
+California - 310
+Los Angeles - 23
+San Francisco/Oakland - 218
+San Diego - 309
+Sacramento - 310
+San Jose - 552
+Colorado - 82
+Denver - 519
+Connecticut - 111
+Delaware - 112
+Florida - 314
+Miami - 38
+Jacksonville - 314
+Orlando - 315
+Tampa Bay - 316
+Georgia - 188
+Atlanta - 532
+Hawaii - 133
+Idaho - 113
+Illinois - 17
+Chicago - 17
+Indiana - 85
+Iowa - 114
+Kansas - 90
+Kentucky - 115
+Louisiana - 65
+Maine - 116
+Maryland - 117
+Baltimore - 526
+Massachusetts - 530
+Boston - 530
+Michigan - 360
+Detroit - 19
+Minnesota - 81
+Mississippi - 103
+Missouri - 118
+Montana - 119
+Nebraska - 120
+Nevada - 527
+Las Vegas - 527
+New Hampshire - 121
+New Jersey - 48
+New Mexico - 122
+New York - 8
+Buffalo/Rochester - 443
+North Carolina - 123
+North Dakota - 124
+Ohio - 529
+Cleveland - 529
+Columbus - 564
+Oklahoma - 104
+Oregon - 125
+Portland - 125
+Pennsylvania - 528
+Philadelphia - 528
+Pittsburgh - 531
+Rhode Island - 127
+South Carolina - 105
+South Dakota - 128
+Tennessee - 72
+Texas - 63
+Houston - 63
+Dallas/Fort Worth - 319
+San Antonio - 320
+Austin - 321
+El Paso - 322
+Utah - 106
+Vermont - 129
+Virginia - 130
+Richmond - 553
+Washington DC - 22
+Washington State - 411
+Seattle - 46
+West Virginia - 131
+Wisconsin - 107
+Wyoming - 132
+Uruguay - 194
+All - 405
+Montevideo - 384
+Uzbekistan - 216
+Vanuatu - 511
+Venezuela - 182
+Vietnam - 205
+All - 405
+Ho Chi Minh City - 554
+Hanoi - 556
+Zambia - 465
+Zimbabwe - 313
