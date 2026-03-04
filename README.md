@@ -1,6 +1,8 @@
 # ra-fetcher-nextloc
 Fetcher for artists touring history from Resident Advisor 
 
+Fetch 1) artist-ids that played in city-id ; 2) all touring history from artist-ids ; 3) all city-info from event-ids
+
 ## Requirements
 Python 3.6 or higher
 requests library (pip install requests)
