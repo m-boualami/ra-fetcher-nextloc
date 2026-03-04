@@ -12,3 +12,6 @@ Run pip install -r requirements.txt to install the required libraries.
 
 ## Run
 See terminal_commands.txt
+
+## Credits
+Built from https://github.com/djb-gt/resident-advisor-events-scraper
