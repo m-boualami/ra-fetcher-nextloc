@@ -1,10 +1,20 @@
+To fetch artists-id that played in Berlin (code 34, see cities.txt) from 1st january 2023 to 31st december 2023 : 
+
 ** Call fetcher artists **
 
 python artist_fetcher.py 34 2023-01-01 2023-12-31 -o berlin
 
+--------
+
+To fetch entire touring history from artist-id file :
+
 ** Call fetcher events **
 
 python event_fetcher_2.py --artists-file berlin_artists.csv -o from_berlin
+
+--------
+
+To fetch city infos from event file :
 
 ** Call fetcher info area **
 
