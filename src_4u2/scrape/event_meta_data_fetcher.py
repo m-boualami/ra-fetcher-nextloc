@@ -131,11 +131,11 @@ def fetch_event_metadata(event_ids):
 def main():
     run_flag = 0
 
-    with open("./data/loc_codes/country2areaid.json", "r") as f:
+    with open("../data/loc_codes/country2areaid.json", "r") as f:
         country2aid = json.load(f)
     countries = sorted(set(country2aid.keys()))
 
-    dir = Path("./data/event_ids")
+    dir = Path("../data/event_ids")
     f_all = sorted([str(f) for f in dir.iterdir()])
 
     venue_data = []
@@ -152,7 +152,7 @@ def main():
                 print(f"* Computing meta-data for {len(event_ids)} events in {country}")
                 meta_data, cols = fetch_event_metadata(event_ids)
                 # save as df
-            pd.DataFrame(meta_data, columns=cols).to_csv(f"./data/event_meta_data/{country}.csv", index=False) 
+                pd.DataFrame(meta_data, columns=cols).to_csv(f"./data/event_meta_data/{country}.csv", index=False) 
 
         # todo. filter those >= 2026-03-01
 

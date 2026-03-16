@@ -108,7 +108,7 @@ def fetch_and_save_eventids(save_fname, area_list, date_gte, date_lte):
         print(f"\nFetching events for {save_fname} ...")
         event_ids = fetcher.fetch_all_events()
 
-        np.save(f"./data/event_ids/{save_fname}.npy", event_ids)
+        np.save(f"../data/event_ids/{save_fname}.npy", event_ids)
         print(f"{len(event_ids)} unique event ids saved.")
         time.sleep(2)
 
@@ -148,7 +148,7 @@ def main():
     end_dates = [last_day_of_month(date) for date in start_dates]
     
 
-    with open("./data/loc_codes/country2areaid.json", "r") as f:
+    with open("../data/loc_codes/country2areaid.json", "r") as f:
         country2aid = json.load(f)
 
     for country_name, area_list in country2aid.items():
