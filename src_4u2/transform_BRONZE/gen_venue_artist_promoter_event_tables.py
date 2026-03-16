@@ -21,22 +21,18 @@ event_table = []
 for fname in Path("../../data/event_meta_data/").glob("*.csv"):
     lineup_as_aids = []
     country_name = str(fname).split('/')[-1].split('.csv')[0]
-    country_df = pd.read_csv(fname).drop_duplicates()
-    
+    country_df = pd.read_csv(fname).drop_duplicates()  
     print(country_name)
 
     # create venue table
     venue_df = country_df[['venue_id', 'venue_name', 'venue_address', 'venue_area_id', 'venue_lat', 'venue_lng']].drop_duplicates()
     venue_dfs.append(venue_df)
 
-    #"""
     # create promoter table 
     promoter_df = country_df[['promoter_id', 'promoter_name']].drop_duplicates()
     promoter_dfs.append(promoter_df)
 
-    # create artist dict
-    aid_2_name = {}
-
+    aid_2_name = {} # create artist dict
     lineups_all = country_df.lineup.values
     for artists in lineups_all:
         artists = filter_artists_without_ids(artists)
@@ -57,19 +53,15 @@ for fname in Path("../../data/event_meta_data/").glob("*.csv"):
     country_df['linup_aids'] = lineup_as_aids
 
     # finally, remove redunant cols in original table
-    country_df = country_df[['id', 'title', 'description', 'start_time', 'lineup', 'linup_aids', 'genres', 'interested_count', 'is_festival', 'has_secret_venue', 'is_ticketed', 'flyer_photo', 'venue_id', 'promoter_id']]
+    country_df = country_df[['id', 'title', 'description', 'start_time', 'lineup', 'linup_aids', 'genres', 'interested_count', 
+                             'is_festival', 'has_secret_venue', 'is_ticketed', 'flyer_photo', 'venue_id', 'promoter_id']]
     event_table.append(country_df)
     
 
-venue_dfs = pd.concat(venue_dfs).drop_duplicates()
-promoter_dfs = pd.concat(promoter_dfs).drop_duplicates()
-artist_dfs = pd.concat(artist_dfs).drop_duplicates()
-event_table = pd.concat(event_table).drop_duplicates()
-
-venue_dfs = venue_dfs.reset_index()
-promoter_dfs = promoter_dfs.reset_index()
-artist_dfs = artist_dfs.reset_index()
-event_table = event_table.reset_index()
+venue_dfs = pd.concat(venue_dfs).drop_duplicates().reset_index()
+promoter_dfs = pd.concat(promoter_dfs).drop_duplicates().reset_index()
+artist_dfs = pd.concat(artist_dfs).drop_duplicates().reset_index()
+event_table = pd.concat(event_table).drop_duplicates().reset_index()
 
 venue_dfs.to_csv('../../data/clean_tables/venues')
 promoter_dfs.to_csv("../../data/clean_tables/promoters")
