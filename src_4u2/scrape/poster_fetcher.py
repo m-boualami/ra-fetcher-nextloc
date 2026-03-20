@@ -7,6 +7,7 @@ from PIL import Image
 import io
 import time
 import logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -20,7 +21,8 @@ HEADERS = {
     "Referer":    "https://ra.co/events/",
 }
 
-DELAY       = 1
+DELAY       = 0.01
+MAX_WORKERS = 10
 TIMEOUT     = 15
 RETRY_MAX   = 3
 IMG_SIZE    = 512
@@ -65,6 +67,7 @@ def download_one(session: requests.Session, image_url: str) -> bool:
                     logger.warning(f"Invalid image content : {image_url} — {e}")
                     return False                    # no retry
                 dest.write_bytes(compressed)
+                time.sleep(DELAY)
                 return True
 
             elif r.status_code == 404:
@@ -88,7 +91,6 @@ def download_one(session: requests.Session, image_url: str) -> bool:
 
     return False
 
-
 def main():
     args = parse_args()
 
@@ -96,23 +98,27 @@ def main():
     urls = df["flyer_photo"].dropna().unique().tolist()
     logger.info(f"{len(urls)} images to download (from {args.file})")
 
+    #session = requests.Session()
+    #session.headers.update(HEADERS)
+    adapter = requests.adapters.HTTPAdapter(pool_connections=MAX_WORKERS, pool_maxsize=MAX_WORKERS)
     session = requests.Session()
+    session.mount("https://", adapter)
     session.headers.update(HEADERS)
 
     failed = []
 
-    for url in tqdm(urls, desc="Posters"):
-        ok = download_one(session, url)
-        if not ok:
-            failed.append(url)
-        time.sleep(DELAY)
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = {executor.submit(download_one, session, url): url for url in urls}
+        for future in tqdm(as_completed(futures), total=len(urls), desc="Posters"):
+            url = futures[future]
+            if not future.result():
+                failed.append(url)
 
-    logger.info(f"Done — {len(urls) - len(failed)}/{len(urls)} successful")
+    logger.info(f"Done - {len(urls) - len(failed)}/{len(urls)} successful")
 
     if failed:
         pd.DataFrame({"url": failed}).to_csv(FAILED_LOG, index=False)
         logger.info(f"{len(failed)} failures → {FAILED_LOG}")
-
 
 if __name__ == "__main__":
     main()
