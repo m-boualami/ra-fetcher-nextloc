@@ -1,4 +1,5 @@
 # replace country json file into more easily readable table...
+### only has to be run once - D0 NOT IMPLEMENT IN SNOWFLAKE
 
 import json
 from pathlib import Path

@@ -129,8 +129,6 @@ def fetch_event_metadata(event_ids):
 
 
 def main():
-    run_flag = 0
-
     with open("../data/loc_codes/country2areaid.json", "r") as f:
         country2aid = json.load(f)
     countries = sorted(set(country2aid.keys()))
@@ -142,19 +140,13 @@ def main():
 
     # get all files associated with the country
     for country in countries:
-        # todo. uncomment after debugging - 17628 (error)
-        if country == "United States of America":
-            run_flag = 1
-        if run_flag == 1:
-            f_country = [f for f in f_all if country in f]  # get file names
-            event_ids = np.concatenate([np.sort(np.load(fname)) for fname in f_country]) # get all event ids for the country
-            if len(event_ids) > 0:
-                print(f"* Computing meta-data for {len(event_ids)} events in {country}")
-                meta_data, cols = fetch_event_metadata(event_ids)
-                # save as df
-                pd.DataFrame(meta_data, columns=cols).to_csv(f"./data/event_meta_data/{country}.csv", index=False) 
-
-        # todo. filter those >= 2026-03-01
+        f_country = [f for f in f_all if country in f]  # get file names
+        event_ids = np.concatenate([np.sort(np.load(fname)) for fname in f_country]) # get all event ids for the country
+        if len(event_ids) > 0:
+            print(f"* Computing meta-data for {len(event_ids)} events in {country}")
+            meta_data, cols = fetch_event_metadata(event_ids)
+            # save as df
+            pd.DataFrame(meta_data, columns=cols).to_csv(f"./data/event_meta_data/{country}.csv", index=False) 
 
 
 if __name__ == "__main__":

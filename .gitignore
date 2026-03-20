@@ -1,2 +1,7 @@
 event_details_fetcher.ipynb
 data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

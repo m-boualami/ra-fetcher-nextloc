@@ -1,4 +1,5 @@
 ### TODO: redo in Snowflake
+### TODO 2: work out why saving index twice...
 
 import pandas as pd
 import numpy as np
@@ -23,6 +24,11 @@ for fname in Path("../../data/event_meta_data/").glob("*.csv"):
     country_name = str(fname).split('/')[-1].split('.csv')[0]
     country_df = pd.read_csv(fname).drop_duplicates()  
     print(country_name)
+
+
+    # todo. filter those >= 2026-03-01
+
+
 
     # create venue table
     venue_df = country_df[['venue_id', 'venue_name', 'venue_address', 'venue_area_id', 'venue_lat', 'venue_lng']].drop_duplicates()
